@@ -44,7 +44,7 @@ async function sendEmail({assunto, nome,email,telefone,estado,cidade,descricao}:
 
     const info = await transporter.sendMail({
       from: process.env.AUTH_EMAIL,
-      to: "matheustxr.profissional@gmail.com",
+      to: "financeiro@empreendimentoscardeal.com.br",
       subject: assunto,
       html: `
       <p><strong>Nome:</strong> ${nome}</p>
